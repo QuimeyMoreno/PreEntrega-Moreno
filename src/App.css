@@ -1,10 +1,53 @@
-.bg-header {
-    background-color: #032830;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
+.bg-header {
+    background-color: #fff;
+}
+
 .item-list-container {
     text-align: center;
     margin: 40px;
 }
-.color-icon{
-    color: #032830;
+
+.color-icon {
+    color: #000;
+}
+
+.titulo-card {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.composition-card, .rights-reserved, .precio-card, .font-carrito {
+    font-size: 13px;
+}
+
+.border-footer{
+    border-top: 1px solid black;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.alinear-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-contador{
+    display: flex;
+    border-radius: 0px !important;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.detail-carrito{
+    border: 1px solid;
+    margin-top: 10px;
+    text-align: center
 }
